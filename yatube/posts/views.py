@@ -10,5 +10,5 @@ def index(request):
 
 
 # Страница со списком мороженого
-def group_posts(request):
+def group_posts(request, slug):
     return HttpResponse('Публикация постов')
