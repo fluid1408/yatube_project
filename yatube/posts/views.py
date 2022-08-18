@@ -10,5 +10,5 @@ def index(request):
 
 
 # Страница со списком мороженого
-def ice_cream_list(request):
+def group_posts(request):
     return HttpResponse('Публикация постов')
