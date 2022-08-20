@@ -1,14 +1,12 @@
 from django.shortcuts import render
+from django.http import HttpResponse
+
 
 # Create your views here.
-from django.http import HttpResponse
+# Главная страница
 def index(request):
     template = "index.html"
     return render(request, template)
-
-# Главная страница
-def index(request):    
-    return HttpResponse('Главная страница')
 
 
 # Страница со списком мороженого
